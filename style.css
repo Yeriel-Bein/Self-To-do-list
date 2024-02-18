@@ -1,0 +1,153 @@
+body{
+    padding: 0;
+    background-color: #335577;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+h1{
+    font-weight: 600;
+    font-size: 3rem;
+    color:#335577;
+}
+
+.container{
+    background-color: #ffffee;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 88vh;
+    background-image: url(img/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    margin: auto;
+    
+}
+
+.task-menu{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    justify-content: space-between;
+}
+
+.task-menu div{
+    padding: 1em;
+    cursor: pointer;
+    color: #335577;
+}
+
+.task-area{
+    top: 6.5rem;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+}
+
+.top-area{
+    width: 30rem;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+#under-line{
+    width: 3.25em;
+    position: absolute;
+    background-color: #224488;
+    left: 2rem;
+    top: 38px;
+    transition: 0.5s;
+    padding-top: 1.5px;
+    padding-bottom: 0.5px;
+}
+
+.input-area{
+    text-align: center;
+}
+
+#add-button{
+    border: none;
+    color:#335577;
+}
+
+.input-box{
+    width: 20rem;
+    height: 2.3rem;
+    border: none;
+    border-bottom: 2px solid #224488;
+    background-color: transparent;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    padding: 0 2rem 0 2rem;
+}
+
+input:focus-visible{
+    outline: none;    
+}
+
+.task-list{
+    padding: 0.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    vertical-align: middle;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.task-done{
+    background-color: rgba(238, 238, 222, 0.859);
+    margin-bottom: 0.25rem;
+}
+
+.task-ongoing{
+    background-color: rgba(34,68,136,0.219);
+    margin-bottom: 0.25rem;
+}
+
+.button-box{
+    display:flex;
+}
+
+.button-box button{
+    height: 100%;
+    border: none;
+    margin: 0;
+    transition: 0.5s;
+    background-color: rgba(34,68,136,0.219);
+}
+
+.check-task{
+    display:flex;
+}
+
+.task-box{
+    padding-left: 1rem;
+}
